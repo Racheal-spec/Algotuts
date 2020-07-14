@@ -1,1 +1,1 @@
-# Algotuts
+Learning javascript algorithms
