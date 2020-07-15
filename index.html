@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Email Filter</title>
+</head>
+<body>
+    <form action="#" method="">
+        <ul>
+    <label for="email">Your Email:</label>
+        <input type="text" id="email">
+    <label for="email">Your Password:</label>
+    <input type="text" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+     title="Your password must contain an uppercase, lowercase and number"  required>    
+     <button type= "button" class="btn">Submit</button>
+       </ul>
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>

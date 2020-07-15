@@ -1,0 +1,26 @@
+#email{
+    width: 30%;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+#password{
+    width: 30%;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+.btn{
+    width: 100px;
+    padding: 10px 0;
+    background-color: palegreen;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
